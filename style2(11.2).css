@@ -1,0 +1,113 @@
+#second-section {
+    background-color: #5e7283;
+    background-color: var(--bg-color);
+}
+
+.div-heading-2 {
+    display: block;
+}
+
+.heading-3 {
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.heading-4 {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.header-section-2 {
+    padding-top: 17px;
+    padding-bottom: 12px;
+}
+
+.about-section .about {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    letter-spacing: 0.03em;   /* Adjusted letter spacing */
+    line-height: 1.5;     /*added line height */
+}
+
+.about-section .img-block-2 .img-2 {
+    width: auto;    
+    height: 110%;
+}       
+
+
+.about-section .img-block-2 {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    grid-area: content;
+    position: relative;
+    display: inline-block;
+}
+
+.about-section {
+    display: grid;
+    grid-template-areas: "content text";
+    grid-template-columns: 1fr 2fr;
+    height: 570px;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: start;
+}
+
+.about-section .about {
+    grid-area: text;
+}
+
+.content-section-2{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.material-symbols-outlined[data-icon="info"] {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  font-size: 30px;
+}
+
+.info-container-2 {
+  position: absolute; 
+  bottom: 20px; 
+  right: 30px;
+}
+
+[id^="info-2"] {
+  display: none;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  background: #cfa44d;
+  border-radius: 10px;
+  transform: translateY(-100%);
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  text-decoration: underline;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+[id^="info-2"].show {
+  display: block;
+}
+
+#info-2 a{
+    color: black;
+}

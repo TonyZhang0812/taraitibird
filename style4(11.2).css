@@ -1,0 +1,130 @@
+#fourth-section {
+    background-color: #5e7283;
+    background-color: var(--bg-color);    
+}
+
+.div-heading-4 {
+    display: block;
+}
+
+.heading-7 {
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.heading-8 {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.header-section-4 {
+    padding-top: 17px;
+    padding-bottom: 12px;
+}
+
+.actions-section .actions-section-2 .reasons {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    margin: 0;
+    width: 680px;
+}
+
+.actions-section .actions ul li {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+
+.actions-section .actions ul {
+    margin: 0;
+    padding-top: 0;
+}
+
+.actions-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 570px;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: start;
+}
+
+.actions-section .actions{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 700px;
+}
+
+.actions-section .actions-section-2{
+    display: block;
+    padding-top: 0;
+    width: 680px;
+}
+
+.actions-section .actions-section-2 .img-block-4 .img-4{
+    width: 600px;    
+    height: 360px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.actions-section .actions-section-2 .img-block-4{
+    position: relative;
+    display: inline-block;
+}
+
+.content-section-4{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.material-symbols-outlined[data-icon="info"] {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  font-size: 30px;
+}
+
+.info-container-3 {
+  position: absolute; 
+  bottom: 20px; 
+  right: 30px;
+}
+
+[id^="info-3"] {
+  display: none;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  background: #cfa44d;
+  border-radius: 10px;
+  transform: translateY(-100%);
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  text-decoration: underline;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+[id^="info-3"].show {
+  display: block;
+}
+
+#info-3 a{
+    color: black;
+}

@@ -1,0 +1,123 @@
+#first-section {
+    background-color: #5e7283;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+.div-heading-1 {
+    display: block;
+}
+
+.header-1 {
+    position: absolute;
+    margin: 0;
+    width: auto;
+    max-width: 90vw;
+    z-index: 2;        /* margin-top */
+    left: 50%;           /* a half of the screen width */
+    transform: translateX(-50%); /* move left by half of its own width */
+    width: 1400px;
+    margin-top: 430px;
+}
+
+.heading-1 {
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.heading-2 {
+    text-align: left;
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.intro {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    margin-bottom: 0px;
+    letter-spacing: 0.03em;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.header-section-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.img-block-1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    margin-left: calc(50% - 50%);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Overlay headings on top of the image */
+.img-block-1 .img-1 {
+    object-position: 0% 30%;
+    width: 100%;    
+    height: auto;
+    transform: translateY(-200px);
+}
+
+.header-section-1 .heading-1 {
+    top: 430px;
+}
+
+.header-section-1 .heading-2 {
+    top: 500px;
+}
+
+.material-symbols-outlined[data-icon="info"] {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  font-size: 30px;
+}
+
+.info-container-1 {
+  position: absolute; 
+  bottom: 50px; 
+  right: 100px;
+}
+
+[id^="info-1"] {
+  display: none;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  background: #cfa44d;
+  border-radius: 10px;
+  transform: translateY(-100%);
+  width: auto;
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  text-decoration: underline;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+[id^="info-1"].show {
+  display: block;
+}
+
+#info-1 a{
+  color: black;
+}
