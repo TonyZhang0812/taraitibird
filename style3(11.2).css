@@ -1,0 +1,73 @@
+#third-section {
+    background-color: #5e7283;
+    background-color: var(--bg-color);
+}
+
+.div-heading-3 {
+    display: block;
+}
+
+.heading-5 {
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.heading-6 {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #cfa44d;
+}
+
+.header-section-3 {
+    padding-top: 17px;
+    padding-bottom: 12px;
+}
+
+.threats {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    width: 680px;
+    margin: 0;
+}
+
+.threats-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 570px;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: start;
+}
+
+.threats-section .threats-section-2{
+    display: block;
+    width: 700px;
+}
+
+.threats-section .threats-section-2 .content-heading {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc0b4;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+
+.threats-section .threats-section-2 .img-3{
+    width: 600px;    
+    height: 360px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.content-section-3{
+    width: 1400px;
+    margin: 0 auto;
+}
